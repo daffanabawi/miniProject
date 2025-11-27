@@ -1,0 +1,49 @@
+body {
+  background-color: #02bd18;
+}
+h1 {
+  color: white;
+  margin: 200px 0px 20px;
+  
+}
+
+.text{
+  text-align: center;
+  /* font-size: 30px; */
+  font-family: "Helvetica", Arial, sans-serif;
+}
+
+.input-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 5px;
+}
+.btn{
+  background-color: #02bd18;
+  color: white;        /* ❗ penting agar teks terlihat */
+  border: none;
+  padding: 10px 20px;  /* ❗ tombol jadi terlihat */
+  border-radius: 5px;  /* opsional */
+  cursor: pointer;
+}
+@media(min-width: 601px){
+  .input-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 5px;
+}
+}
